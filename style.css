@@ -1,0 +1,54 @@
+body {
+    background-color: #221E29;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    font-weight:700;
+}
+
+h3 {
+    font-weight:400;
+    font-style: italic;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.flex-container>div,.flex-container>input  {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 60px;
+    justify-content: center;
+}
+
+.flex-container>input>div {
+    padding: 10% 10%;
+    border: 0px;
+
+}
+
+.slide {
+    background-color: #3C3150;
+    color: #eefd96;
+    flex-grow: 8;
+    min-height: calc(100vh - 40px);
+}
+
+.nav {
+    background-color: #393E45;
+    color: #647E7A;
+    transition-duration: 0.4s;
+    border: 0px transparent;
+    font-size:24px;
+}
+
+.nav:hover {
+    background-color:#647E7A;
+    color: #393E45;
+}
